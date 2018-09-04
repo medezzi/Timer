@@ -2,8 +2,9 @@
   font-family: sans-serif;
   text-align: center;
   background-color: #a0c008;
+  
 }
-.Button {
+button {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
@@ -14,14 +15,19 @@
   padding: 15px;
   border-radius: 20px;
 }
-.Button:hover {
+
+.reset {
+  background-color: red;
+}
+
+button:hover {
   border: 3px solid rgb(52, 65, 51);
   background-color: rgb(197, 162, 5);
 }
 .timer {
   display: flex;
-  align-content: center;
-  align-items: center;
+  align-content: flex-end;
+  align-items: flex-start;
   padding: 20px;
   background-color: rgb(209, 224, 135);
 }
